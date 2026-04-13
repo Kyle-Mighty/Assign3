@@ -1,0 +1,240 @@
+html {
+  background: linear-gradient(180deg, #0b3c6f 0%, #145da0 50%, #6ec6ff 100%);
+}
+
+body {
+  margin: 0;
+  color: #132238;
+  font-family: Georgia, Garamond, "Trebuchet MS", sans-serif;
+}
+
+#wrapper {
+  width: 86%;
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 22px;
+  background-color: #f8fbff;
+  border: 4px solid #0b3c6f;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(90deg, #e6f4ff, #c8e8ff);
+  color: #0b3c6f;
+  padding: 18px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+nav {
+  background-color: #d8efff;
+  color: #0b3c6f;
+  padding: 14px;
+  margin-top: 14px;
+  margin-bottom: 18px;
+  text-align: center;
+  border-bottom: 5px solid #0b3c6f;
+  border-radius: 16px 16px 0 0;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  padding: 10px 16px;
+  background-color: #0b3c6f;
+  color: #ffffff;
+  border: 2px solid #082d53;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+nav a:hover {
+  background-color: #ffd166;
+  color: #0b3c6f;
+}
+
+main {
+  background-color: #ffffff;
+  color: #132238;
+  padding: 22px;
+  border-radius: 0 0 16px 16px;
+}
+
+footer {
+  background-color: #0b3c6f;
+  color: #ffffff;
+  padding: 14px;
+  margin-top: 18px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+h2 {
+  color: #b22222;
+}
+
+h3 {
+  color: #147a4b;
+}
+
+hr {
+  height: 6px;
+  border: none;
+  background-color: #ff8c42;
+  border-radius: 6px;
+}
+
+p, li, label, td, th, legend, caption {
+  line-height: 1.6;
+}
+
+ul.square-list {
+  list-style-type: square;
+}
+
+a {
+  color: #8b1e3f;
+}
+
+main a,
+footer a {
+  color: #ffbf69;
+}
+
+.ride {
+  overflow: auto;
+  margin-bottom: 24px;
+}
+
+.ride img {
+  float: left;
+  width: 220px;
+  height: auto;
+  margin: 0 18px 12px 0;
+  border: 4px solid #0b3c6f;
+  border-radius: 14px;
+}
+
+.ride h3 {
+  margin-top: 0;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+caption {
+  caption-side: top;
+  text-align: right;
+  padding: 8px;
+  color: #b22222;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 2px solid #0b3c6f;
+  padding: 12px;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: #0b3c6f;
+  color: #ffffff;
+}
+
+tr:nth-child(odd):not(:first-child) {
+  background-color: #eaf6ff;
+  color: #132238;
+}
+
+tr:nth-child(even):not(:first-child) {
+  background-color: #cfe9ff;
+  color: #132238;
+}
+
+form {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 18px;
+  background-color: #eef7ff;
+  border: 3px solid #0b3c6f;
+  border-radius: 16px;
+}
+
+fieldset {
+  margin-bottom: 18px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 3px solid #4ea8de;
+  border-radius: 14px;
+}
+
+legend {
+  padding: 6px 12px;
+  background-color: #ffd166;
+  color: #0b3c6f;
+  border: 2px solid #ff8c42;
+  border-radius: 14px;
+  font-weight: bold;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.form-row label {
+  width: 180px;
+  font-weight: bold;
+}
+
+.checkbox-group label,
+.radio-group label {
+  width: auto;
+  margin-right: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+  padding: 8px;
+  border: 2px solid #4ea8de;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border: 2px solid #082d53;
+  border-radius: 24px;
+  background-color: #0b3c6f;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffd166;
+  color: #0b3c6f;
+}

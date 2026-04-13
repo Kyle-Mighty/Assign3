@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fort: Assign3</title>
+    <link rel="stylesheet" href="amuse_styles.css">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+    <img src="Images/logo.png" width="200" alt="Park Logo">
+
+    <h1>Georgia Southern University's Premier Roller Coaster Park</h1>
+</header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rides.html">Rides</a>
+        <a href="info.html">Info</a>
+        <a href="order.html">Order</a>
+        <a href="upcoming-events.html">Upcoming Events</a>
+        <a href="related-events.html">Related News</a>
+    </nav>
+
+    <main>
+        <h2>Order Tickets Online</h2>
+
+        <form method="get" action="formProcessor.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">E-Mail Address:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="100">
+            </fieldset>
+
+            <fieldset>
+                <legend>Ticket Information</legend>
+
+                <label for="tickets">Number of Tickets?</label>
+                <select id="tickets" name="tickets">
+                    <option value="">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+
+                <br><br>
+
+                <label for="donation">How much do you want to donate to the park?</label>
+                <span id="minValue">1</span>
+                <input type="range" id="donation" name="donation" min="1" max="100" step="5">
+                <span id="maxValue">100</span>
+
+                <p>Order Add-ons:</p>
+
+                <input type="checkbox" id="meal" name="addon" value="Meal Pass" checked>
+                <label for="meal">Meal Pass</label>
+
+                <input type="checkbox" id="fast" name="addon" value="Fast Pass" checked>
+                <label for="fast">Fast Pass</label>
+
+                <input type="checkbox" id="parking" name="addon" value="Parking Pass">
+                <label for="parking">Parking Pass</label>
+
+                <input type="checkbox" id="vip" name="addon" value="VIP Tour">
+                <label for="vip">VIP Tour</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Information</legend>
+
+                <label for="deliverydate">Delivery Date:</label>
+                <input type="date" id="deliverydate" name="deliverydate">
+
+                <p>Delivery Method:</p>
+
+                <input type="radio" id="emailDelivery" name="deliverymethod" value="Email">
+                <label for="emailDelivery">Email</label>
+
+                <input type="radio" id="mailDelivery" name="deliverymethod" value="Mail">
+                <label for="mailDelivery">Mail</label>
+
+                <input type="radio" id="downloadDelivery" name="deliverymethod" value="Digital Download">
+                <label for="downloadDelivery">Digital Download</label>
+
+                <input type="radio" id="droneDelivery" name="deliverymethod" value="Drone">
+                <label for="droneDelivery">Drone</label>
+
+                <input type="radio" id="telegramDelivery" name="deliverymethod" value="Singing Telegram">
+                <label for="telegramDelivery">Singing Telegram</label>
+
+                <input type="radio" id="pigeonDelivery" name="deliverymethod" value="Carrier Pigeon">
+                <label for="pigeonDelivery">Carrier Pigeon</label>
+            </fieldset>
+
+            <input type="submit" value="Order Ticket">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>
+           Copyright &copy; 2026 Georgia Southern Studios
+            <a href="mailto:km44736@georgiasouthern.edu">km44736@georgiasouthern.edu</a>
+        </p>
+    </footer>
+
+</div>
+
+</body>
+</html>
